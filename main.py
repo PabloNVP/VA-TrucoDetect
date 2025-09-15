@@ -1,6 +1,6 @@
 import os
-from constants import cv
-from truco_detect import TrucoDetect
+from src.constants import cv
+from src.truco_detect import TrucoDetect
 
 def draw_cards(imWebcam, cards : dict):
   x, y, offset = 10, 10, 10

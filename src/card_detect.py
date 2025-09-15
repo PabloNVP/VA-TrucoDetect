@@ -1,4 +1,4 @@
-from constants import cv
+from src.constants import cv
 import math
 
 class CardDetect:

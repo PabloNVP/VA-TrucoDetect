@@ -1,5 +1,5 @@
 
-from constants import cv, THRESHOLDS
+from src.constants import cv, THRESHOLDS
 
 class Menu:
   def __init__(self):

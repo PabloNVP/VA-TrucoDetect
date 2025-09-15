@@ -1,8 +1,8 @@
 
 import mediapipe as mp
-from constants import cv, LANDMARKS, CARDS_IMG
-from card_detect import CardDetect
-from menu import Menu
+from src.constants import cv, LANDMARKS, CARDS_IMG
+from src.card_detect import CardDetect
+from src.menu import Menu
 
 mp_face_mesh = mp.solutions.face_mesh
 mp_drawing = mp.solutions.drawing_utils
